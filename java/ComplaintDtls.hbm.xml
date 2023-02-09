@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class table="ComplaintDtls" name="crimeManagementSystem.ComplaintDtls">
+
+
+<id name="id" >
+
+<generator class="increment"></generator>
+</id>
+<property name="policestationname"></property>
+<property name="petitionername"></property>
+<property name="gender"></property>
+<property name="dateofbirth" type="date"></property>
+<property name="address"></property>
+<property name="complaintdetails"></property>
+<property name="dateofcomplaint"></property>
+<property name="idproof"></property>
+<property name="phonenumber"></property>
+<property name="occupation"></property>
+
+</class>
+
+
+
+
+
+
+</hibernate-mapping>

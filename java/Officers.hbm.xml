@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class table="Officers" name="crimeManagementSystem.Officers">
+
+
+<id name="id" >
+
+<generator class="increment"></generator>
+</id>
+<property name="fullname"></property>
+<property name="email"></property>
+<property name="address"></property>
+<property name="password"></property>
+<property name="cpassword"></property>
+<property name="phone"></property>
+<property name="pennumber"></property>
+<property name="gender"></property>
+
+
+</class>
+</hibernate-mapping>
